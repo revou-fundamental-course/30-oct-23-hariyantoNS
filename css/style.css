@@ -1,0 +1,62 @@
+#header-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  margin-top: 0px;
+  color: #2B3499;
+}
+
+.navigation-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.navigation-bar > a {
+  text-decoration: none;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    margin-top 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+label {
+    margin-bottom: 4px;
+    font-size: small;
+    color: 192655;
+}
+
+input {
+  outline: none;
+  border: solid #87C4FF
+  padding: 10px;
+  border-radius: 6px;
+}
+
+input:focus {
+  border:  #C70039;
+}
+.button-section {
+  margin-top: 8px;
+}
+button {
+  background-color: #FFF8C9; 
+  color: #12486B;
+  !tidak ada border
+  padding: 7px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #F4E869;
+}
+
+button:active {
+  transform: translateY(4px);
+}
