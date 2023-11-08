@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kalkulator BMI</title>
+    <style>
+      body {
+        background-color: rgb(161, 220, 239);
+      }
+    </style>
+    <style type="text/css">
+      body {
+        font-family: Tahoma;
+      }
+      #Pertama {
+        font-family: Arial, "Times New Roman", Verdana, Tahoma;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header-bar">
+      <h3 id="logo">KBMI</h3>
+      <nav class="navigation-bar">
+        <a href="">Download App</a>
+        <a href="">Contact Us</a>
+      </nav>
+    </header>
+    <div class="input-group">
+      <form id="frm1">
+        <td>Jenis Kelamin</td>
+        <div class="gender"><input type="radio" name="jk" /> Laki-laki <input type="radio" name="jk" /> Perempuan</div>
+        <section class="input-section">
+          <label for="weight-input">Berat Badan (kg)</label>
+          <input type="number" id="weight-input" placeholder="0" />
+          <label for="age-input">Usia (tahun)</label>
+          <input type="number" id="age-input" placeholder="0" /> <label for="height-input">Tinggi Badan (cm)</label>
+          <input type="number" id="height-input" placeholder="0" />
+          <section class="button-section" />
+          <button class="calculate" id="submit" onclick="hitung">Hitung BMI</button>
+          <button onclick="myFunction()">Reset</button>
+          <script>
+            function myFunction() {
+              document.getElementById("frm1").reset();
+            }
+          </script>
+        </section>
+      </form>
+    </div>
+  </body>
+</html>
+
+<!-- TES MODIFIED -->

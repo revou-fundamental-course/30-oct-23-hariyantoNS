@@ -1,0 +1,100 @@
+#header-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  margin: 3%;
+}
+
+#logo {
+  margin-top: 0px;
+  color: #2b3499;
+}
+
+.navigation-bar {
+  display: flex;
+  gap: 9px;
+  font-family: Arial, "Times New Roman", Verdana, Tahoma;
+}
+
+.navigation-bar > a {
+  text-decoration: none;
+}
+
+.input-section {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  margin-left: none;
+  margin-right: 190px;
+}
+
+label {
+  margin-bottom: 4px;
+  font-size: small;
+  color: 192655;
+}
+
+input {
+  outline: none;
+  border: solid #87c4ff;
+  padding: 3px;
+  border-radius: 6px;
+}
+
+input:focus {
+  border: #c70039;
+}
+.button-section {
+  margin-top: 8px;
+}
+button {
+  background-color: #fff8c9;
+  color: #12486b;
+  //tidak ada border
+  padding: 7px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f4e869;
+}
+
+button:active {
+  transform: translateY(4px);
+}
+//coba
+button.calculate {
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+  background: rgb(97, 138, 254, 1);
+  font-size: 16px;
+  border-radius: 7px;
+  padding: 12px 0;
+  width: 100%;
+  outline: none;
+  border: none;
+  transition: all 0.5s;
+}
+.result {
+  padding: 10px 20px;
+}
+.result p {
+  font-weight: 600;
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 15px;
+}
+.result #result {
+  font-size: 36px;
+  font-weight: 900;
+  color: #4f7df9;
+  background-color: #eaeaea;
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 55px;
+  margin-bottom: 25px;
+}
